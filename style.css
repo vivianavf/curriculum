@@ -9,3 +9,7 @@ nav{
 h2 {
   font-weight: bold;
 }
+
+#nav-labels{
+  color: #fff;
+}
