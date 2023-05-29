@@ -22,6 +22,18 @@ main{
   justify-content: space-between;
 }
 
-section{
+section #INFO{
+  width: 100%;
+}
+
+section #EDU{
   width: 50%;
+}
+
+section #HAB{
+  width: 50%;
+}
+
+section #CONT{
+  width: 100%;
 }
