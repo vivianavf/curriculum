@@ -6,20 +6,45 @@ body{
   color: #130900;
 }
 
+header{
+  display: none;
+}
+
 nav{
   background-color: #000000;
+  display: flex;  
 }
 
 h2 {
   font-weight: bold;
 }
 
-nav{
-  display: flex;
-}
-
 #nav-labels{
   list-style-type: none;
+}
+
+#nav-labels>li{
+  padding: 10px;
+  display: inline;
+}
+
+#nav-labels>li a:hover{
+  font-size:20px;
+  color: rgb(0, 174, 255);
+}
+
+img{
+  width: 50px;
+  height: 50px;
+}
+
+#aboutme{
+  /* width: 50%; */
+}
+
+#foto{
+  padding-bottom: 40%;
+  width: 50%;
 }
 
 a{
@@ -53,17 +78,19 @@ section{
 }
 
 .main-div{
-  /* border: #000000 solid 1px; */
-  margin: 2px;
+  border: #000000 solid 1px;
+  
   display: flex;
   flex-wrap: wrap;
 }
 
 .divisor1{
-  /* border: #000000 solid 1px;/*  */
+  border: #000000 solid 1px;/* 
   /* background-color: rgb(169, 245, 70); */
-  margin: 15px;
-  width: 47.5%;
+  margin: 5px;
+  /*width: 50%; */
+  flex-basis: 50%;
+  flex-grow: 1;
 }
 
 .cont4{
@@ -78,8 +105,14 @@ section{
   height: 300px;
 }
 
+#INFO{
+  padding-top: 10px;
+  padding: 10px;
+  display: flex;
+}
+
 #CONTDIV{
-  background-color: #adb5d6;
+  background-color: #acdacf;
   justify-content: center;
   text-align: center;
 }
@@ -102,7 +135,7 @@ section{
 }
 
 #front-edu{
-  background-color: #d9dee9;
+  background-color: #cce6e0;
   position: absolute;
 }
 
