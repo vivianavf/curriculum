@@ -15,10 +15,10 @@
 <body>
   <nav>
   <ul id="nav-labels">
-    <li><a href="#INFO">LinkedIn</a></li>
-    <li><a href="#EDU">GitHub</a></li>
-    <li><a href="#EXP">Figma Community</a></li>
-    <li><a href="#HAB">Behance</a></li>
+    <li><a href="https://www.linkedin.com">LinkedIn</a></li>
+    <li><a href="https://www.github.com/">GitHub</a></li>
+    <li><a href="https://www.figma.com/">Figma Community</a></li>
+    <li><a href="https://www.behance.net">Behance</a></li>
     </ul>
   </nav>
 <header>
@@ -27,9 +27,9 @@
 
 <main>
 <div class="main-div">
-  <div class="divisor1">
+  <div class="divisor1" id="divisor-info">
     <section id="INFO">
-      <div id="aboutme">
+      <div class="divisor-info">
       <h2>About Me</h2>
       <p><b>Name</b> Viviana Yolanda Vera Falconí<br>
         <b>Nationality</b> Ecuadorian<br>
@@ -37,8 +37,8 @@
         <b>Birth Date</b> March 13th, 1999<br><br>
       I am an enthusiastic, self-motivated, reliable, responsible and hard working person. I am a mature team worker and adaptable to all challenging situations. I am able to work well both in a team environment as well as using own initiative. I am able to work well under pressure and adhere to strict deadlines.</p>
       </div>
-      <div id="foto">
-      <img src="foto.jpg" alt="Viviana Vera"></div> 
+      <div class="divisor-info">
+      <img id="foto"src="foto.jpg" alt="Viviana Vera"></div> 
 
     </section> <!-- /*INFO*/ -->
 </div> <!-- /*divisor 1*/ -->
@@ -103,14 +103,11 @@
   <div class="divisoren4" id="CONTDIV">
   <section id="CONT">
     <h2>Contacto</h2>
-    <form action="" method="get">
-            <label for="nombre">Nombre: </label>
-            <input type="text" name="nombre" id="nombre" required><br>
-            <label for="email">E-mail: </label>
-            <input type="email" name="email" id="email" required><br>
-            <label for="Mensaje">Mensaje: </label>
-            <input type="textarea" id="mensaje" name="mensaje" required><br>
-            <input type="submit" value="Enviar Mensaje">
+    <form action="" method="get">            
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre"><br>            
+            <input type="email" name="email" id="email" placeholder="Correo" required><br>                        
+            <textarea name="mensaje" id="mensaje" cols="20" rows="5" placeholder="Mensaje"></textarea><br>
+            <input type="submit" value="Enviar">
     </form>
   </section>
   </div> <!-- /*divisor 4*/ -->

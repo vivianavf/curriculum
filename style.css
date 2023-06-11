@@ -3,7 +3,7 @@
 body{
   background-color: #ffffff;
   font-family: 'Ysabeau', sans-serif;
-  color: #130900;
+  color: #2e1601;
 }
 
 header{
@@ -33,18 +33,16 @@ h2 {
   color: rgb(0, 174, 255);
 }
 
-img{
-  width: 50px;
-  height: 50px;
-}
-
-#aboutme{
-  /* width: 50%; */
+.divisor-info{
+  width: 50%;
+  flex-grow: 1;
 }
 
 #foto{
-  padding-bottom: 40%;
-  width: 50%;
+  width: 75%;  
+  /* padding-bottom: 40%; */
+  border-radius: 50%;
+  flex-shrink: 1;
 }
 
 a{
@@ -57,6 +55,11 @@ a:hover{
   opacity: 1;
   transform: scale(1);
   transition: all 0.3s ease-in-out 0.1s;
+}
+
+footer>p>a{
+  color: #2e1601;
+  text-decoration: none;
 }
 
 section{
@@ -78,18 +81,17 @@ section{
 }
 
 .main-div{
-  border: #000000 solid 1px;
-  
+  /* border: #000000 solid 1px; */
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
 }
 
 .divisor1{
-  border: #000000 solid 1px;/* 
+  /* border: #000000 solid 1px; */
   /* background-color: rgb(169, 245, 70); */
   margin: 5px;
-  /*width: 50%; */
-  flex-basis: 50%;
+  width: 49%;  
   flex-grow: 1;
 }
 
@@ -109,10 +111,16 @@ section{
   padding-top: 10px;
   padding: 10px;
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;  
+}
+
+#divisor-info:hover{
+  background-color: #d7d8df;
 }
 
 #CONTDIV{
-  background-color: #acdacf;
+  background-color: #d6deec;
   justify-content: center;
   text-align: center;
 }
@@ -130,12 +138,12 @@ section{
 }
 
 .front{
-  background-color: #f0f4fa;
+  background-color: #fcfdff;
   position: absolute;
 }
 
 #front-edu{
-  background-color: #cce6e0;
+  background-color: #eeeeee;
   position: absolute;
 }
 
@@ -154,3 +162,21 @@ section{
   overflow: auto;
   justify-content: center;
 }
+
+input, textarea{
+  width: 50%;
+  margin: 2px;
+}
+
+input[type=submit]{
+  background-color: transparent;
+  border: none;
+  color: #2e1601;
+}
+
+input[type=submit]:hover{
+  background-color: #0e0d31;
+  border: none;
+  color: white;
+}
+
