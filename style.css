@@ -180,3 +180,16 @@ input[type=submit]:hover{
   color: white;
 }
 
+@media (max-width: 320px) {
+  #divisor-info-foto{
+    display: none;
+  }
+
+  .divisoren4{
+    width: 100%;
+  }
+
+  #divisor-info{
+    overflow-y: hidden;
+  }
+}
